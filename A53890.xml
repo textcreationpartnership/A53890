@@ -1,0 +1,501 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A letter to a friend, reflecting upon the present condition of this nation and demonstrating an exclusion of His Royal Highness from the succession, to be unlawful and unjust.</title>
+            <author>P.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1681</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 26 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A53890</idno>
+            <idno type="STC">Wing P1</idno>
+            <idno type="STC">ESTC R14188</idno>
+            <idno type="EEBO-CITATION">13024099</idno>
+            <idno type="OCLC">ocm 13024099</idno>
+            <idno type="VID">96663</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A53890)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 96663)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 394:18)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A letter to a friend, reflecting upon the present condition of this nation and demonstrating an exclusion of His Royal Highness from the succession, to be unlawful and unjust.</title>
+                  <author>P.</author>
+               </titleStmt>
+               <extent>8 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1681]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Signed: P.</note>
+                  <note>Place and date of publication from NUC pre-1956 imprints.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>James --  II, --  King of England, 1633-1701.</term>
+               <term>Great Britain --  Politics and government --  1660-1688.</term>
+               <term>Great Britain --  Kings and rulers --  Succession.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-10</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-10</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="letter">
+            <pb facs="tcp:96663:1"/>
+            <pb n="1" facs="tcp:96663:1" rendition="simple:additions"/>
+            <head>LETTER To a FRIEND, Reflecting upon the Preſent Condition of
+this NATION, And Demonſtrating, An EXCLUSION OF His Royal Highneſs FROM THE
+SUCCESSION, <hi>To be Unlawful and Unjuſt.</hi>
+            </head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>THE imparting of melancholy reflections, though it ſeldom
+of<g ref="char:EOLhyphen"/>fords a cure, yet it generally promotes an caſe to the Patient,
+eſpecially when 'tis certain; the Confident will not only give his pity, but
+both his Intreſt and Friendſhip will engage him an equal Participant. This
+conſidered incouragement does not a little prompt a relation, Sir, to you,
+what rational grounds I have to fear the very Baſis of our Government. the
+beſt of Governments is in too great dangerof ſuffering under the ill
+wiſhes, and endeavours of ſome amongſt us, unhappily ſucceſsful to
+it's mighty diſadvantage. 'Tis as ſtrange, <pb n="2" facs="tcp:96663:2"/>as true, that
+now even whileſt our juſt wounds cauſed by rebellion are freſh upon us,
+that now even before the ſmart of Judgment for diſ<g ref="char:EOLhyphen"/>loyalty be over, we
+ſhould with the fierceſt precipicious zeal, and mad<g ref="char:EOLhyphen"/>neſs, uſe the
+direct means to make thoſe wounds bleed afreſh, to multi<g ref="char:EOLhyphen"/>ply thoſe
+ſmarts, as if our own miſery, our own misfortunes were the only Object of
+our moſt eager deſires. He's now pointed at as ridicu<g ref="char:EOLhyphen"/>lous, derided for
+ſingularity, and want of inſight into things, denied to be a member of the
+honeſt well meaning party, who cannot ſpeak, as well as ſit with patience
+and delight to have erreverent ſpeeches of ſupe<g ref="char:EOLhyphen"/>riours, evil ſpeeches of
+Dignities. Our King the beſt of Princes, his Councels are anticipated, his
+deſignes foreſeen, and his managements expoſed, his Majeſtie is
+repreſented popiſhly affected, a favourer of po<g ref="char:EOLhyphen"/>piſh Rebels, yet the
+ſame perſons confeſs, 'twas his life was ſought for, as the only way to
+extirpate Proteſtantiſm, and to propagate Popery. The Duke he muſt be
+condemned for a Papiſt, and muſt ſuffer nothing leſs than
+diſinheriſon. The Clergy likewiſe are tainted with the diſeaſe, &amp;
+accuſed of inſtilling ill Principles into their Auditors, of being abettors
+in the bringing in French-government, &amp; Tyranny. That theſe, and ſuch
+as theſe are the continual divulg'd judgments and reproaches of too many
+wherever we come, its being ſo well known ſuperſedes any need of
+proof.</p>
+            <p>Yet thoſe very men are ſo violent againſt Romaniſts, they
+would have them even condemn'd unheard; becauſe (and for no other reaſon if
+we will or can believe them) Romaniſts are Traytors, and indeavor the
+eradicating of the Proteſtant Religion. But would they have us believe them
+loyal, becauſe they vent grievous exclamations againſt Traytors, when at
+the ſame time they openly ſhew themſelves to be ſuch? Would they havens
+preſume then Champions for the Proteſtant Religion, be<g ref="char:EOLhyphen"/>cauſe they
+proclaim a fiery Zeal for the preſervation thereof, when at the ſame time
+they do what in them lies to overthrow it, by that ready way of aſperſing
+the Clergy, and bringing other Odiums upon the Church? No, certainly this Zeal
+cannot be the product of Loyalty to the King, or due honour to the Church or
+Religion, but rather of anger againſt theſe preſuming Rebels, that will
+not ſuffer our phanatical holy ones to have the monopoly of theſe, and
+ſuch like wickedneſſes.</p>
+            <p>And let no mans prejudice make him ſo illogical to infer, that
+what is or ſhall be ſaid, tends to extenuate the crimes of any whatſoever
+Tray<g ref="char:EOLhyphen"/>tor: for I only mark out thoſe that are or would be ſuch, thoſe
+(whom ſince the neck of the late damnable Plot is broken) we have more
+cauſe to fear than Jeſuits.</p>
+            <p>For it is not a ſad obſervation to ſee, what multitudes of
+ignorant peo<g ref="char:EOLhyphen"/>ple are ſeduced by that old and little artifice' of giving the
+name of Papiſt to all that are againſt Phanatick Jntereſt? ſo that let
+a man talk as char<g ref="char:EOLhyphen"/>mingly as he can; let him play the Logician as forcibly,
+'tis all in vain. Tell theſe trapan'd wretches that he's an ill, and
+impolitick contriver, who to quench the flames at one end of his houſe, will
+ſet the other end on fire; tell them there's a better way to preſerve
+Churches from being the place of Image Worſhip, than to call in the
+aſſiſtance of thoſe, who will demoliſh Churches for having Paint in
+their Windows. That there's a better way to preſerve our Service from
+Popiſh Superſtition, than by introducing the Superſtition of the contrary
+kind. Nothing of all this <pb n="3" facs="tcp:96663:2"/>can diſſuade them from Deifying
+thoſe men, who make unreaſonable Clamors againſt the Governors, as being
+remiſs in proſecuting and pu<g ref="char:EOLhyphen"/>niſhing Popiſh Offenders.</p>
+            <p>And no wonder if all that hath been ſaid prove ineffectual, when
+De<g ref="char:EOLhyphen"/>monſtration itſelf (the moſt commanding Proof) is rejected; For we
+cannot be believed that His Majeſty hath done, as much as any King can
+poſſibly do againſt Offenders, though we demonſtrate it true by an
+in<g ref="char:EOLhyphen"/>duction of particulars, and ſhew that no King can do more, than lay his
+ſtrict Commands on, and give Encouragements to all his Subjects to find out,
+and apprehend all Offenders; when found out and apprehended, to confine them
+till their Tryals; when tryed, and proved guilty, to put the Laws in execution.
+But His Majeſty hath done all this.</p>
+            <p>Of the firſt Part, His almoſt daily Proclamations are a
+ſufficient Evi<g ref="char:EOLhyphen"/>dence.</p>
+            <p>As to the ſecond Parr, Juſtice hath been ſo far from being
+remiſs, that there are ſome at this time under Confinement, who being
+accuſed but by one Witneſs onely, have lay'n in Priſon this full Year, or
+more, and could not in all that time by any means come to their Tryals, and yet
+no Bail would be taken for them.</p>
+            <p>As to the third Part, We all know many of theſe Plotters have
+been legally Convicted, not a man of which is living, but every one of them
+without Favor, or Pardon, hath received his juſt Reward.</p>
+            <p>There is no doubt had not His Majeſty (who is indeed naturally
+in<g ref="char:EOLhyphen"/>clined to mercy) proved more merciful to the <hi>Scotiſh</hi> Rebels, who
+were not long ſince actually in Arms, we had had as great a noiſe to
+ſtop, as now, we have to hurry on Juſtice; for they, and moſt of our
+Petitioners are of the ſame ſort. The truth of which who can queſtion,
+when he obſerves many of the Leaders of theſe Petitioners to be old
+Colonels, Captains, <hi>&amp;c.</hi> that have received benefit by the Act of
+Oblivion, men that have taſted the ſweetneſs of Church-Lands, and know,
+by their own experience, how to act Rebellion, which is evident even from their
+very managements; firſt they infuſe an ill Opinion into the unwary, and
+in<g ref="char:EOLhyphen"/>conſiderate <hi>Mobile</hi> of the preſent Government and Governors, and
+then get their Subſcriptions to ſeditious Petitions; theſe were the very
+ſteps of one, and I wiſh they prove not of a ſecond open Rebellion.</p>
+            <p>But amongſt theſe Colonels, <hi>&amp;c.</hi> there may be one
+of a higher rank, a Man fuller of Craft than Honeſty, or Religion, who, to
+gratifie a proud, and peeviſh humor, has offer'd his Royal Highneſs ſome
+great perſonal Affronts, which makes him dread his ſingle condition will
+not be ſo hap<g ref="char:EOLhyphen"/>py under the Duke's Government; and therefore through a
+foreſight of his own private Grievance, thinks it the beſt policy to become
+National<g ref="char:EOLhyphen"/>ly afflicted, and ſo the People muſt be terrified with the ſad
+conſequences of a Popiſh Succeſſor, becauſe he fears the Duke's
+juſt reſentments of his own impudence; and perhaps this is no ſmall
+reaſon why the point of Succeſſion is ſo often reſolved againſt the
+right and lawful Suc<g ref="char:EOLhyphen"/>ceſſor.</p>
+            <p>Who is not now ſo well learned in the Statute Law, to tell you,
+He ſhall incur the Penalty of Treaſon, that diſallows a Power in the King
+and Parliament to diſpoſe of the Crown? And truly he may be condemned for a
+Fool, as well as Traytor, that denies the Supreme Power in any Go<g ref="char:EOLhyphen"/>vernment
+<pb n="4" facs="tcp:96663:3"/>whatſoever to be uncontrolable; there muſt of
+neceſſity be one Supreme uncontrolable Power in all places, to prevent the
+Confuſion which elſe would inevitably follow; no doubt therefore this, and
+all other Power is in the King and Parliament: But whoe're affirms the Power
+may be unjuſtly uſed, and that though for uſing it unjuſtly they are
+unaccountable in this, yet they muſt give account in another world, he need
+not be aſhamed of his Aſſertions; The queſtion therefore will be, Not
+whether there is a Power can defeat the Duke of his Succeſſion, but whether
+his Circumſtances conſidered they can juſtly ſo do?</p>
+            <p>In the diſcuſſion of this Point, many of his Royal
+Highneſſes Friends have appeared more Zealous, than Learned: For ſome of
+them have re<g ref="char:EOLhyphen"/>lied upon the bare producting of a great many Examples, leaving
+ſtill the main Point in queſtion, whether thoſe Examples were juſt, or
+not, never minding if ſuch ſort of arguing were of force, not only their
+An<g ref="char:EOLhyphen"/>tagoniſts might uſe the ſame, but alſo the greateſt Villanies in
+the world might be eaſily juſtified.</p>
+            <p>Others have argued Monarchy to be <hi>Jure Divino,</hi> and gone
+about to prove by Laws of Nature, and by Scripture, the Succeſſion Sacred,
+and have argued the Excluſion of the, Duke Perjury, becauſe of the words
+<hi>Heirs and Succeſſors,</hi> in the Oath of Allegiance.</p>
+            <p>The Anſwerer of theſe <hi>Weighty Conſiderations</hi> hath
+no cauſe to boaſt of a Victory, and yet would he have us believe our
+Cauſe is loſt: But this is not a Caſe at Bar, wherein, though an
+impertinent Iſſue be join'd, the Cauſe depends upon the deciſion of the
+Iſſue; from all therefore that hath hitherto been ſaid, it doth not
+appear our Cauſe is either bad, or loſt, or that the Duke's Adverſaries
+have acquitted themſelves from be<g ref="char:EOLhyphen"/>ing notorious Immoraliſts, and with that
+I charge them. To prove them highly ungrateful, I need no more than remind
+them,</p>
+            <p>Firſt, How often they have complain'd of others, who ne're had
+Power adequate to his Royal Highneſs for accumulating Riches at the Nations
+coſt, and that they could never ſo much as ſuſpect him to give the
+Na<g ref="char:EOLhyphen"/>tion the leaſt Grievance by things of this nature.</p>
+            <p>Secondly, That this Great Man hath as freely expoſed his Life in
+his Countries defence, as the moſt mean and common Soldier; and what hugely
+aggrandizes that generous voluntary Act is this, That his aim could not
+poſſibly be at Preferments, or Riches, the uſual Inticements to ſuch
+hazard: His motive therefore could be nothing, ſave a great and mighty ardor
+for his Countries ſafety. And ſhall ſuch. Obligations as theſe be
+eaſily cancelled? Shall a miſtaken Opinion in matters of Re<g ref="char:EOLhyphen"/>ligion not only
+root out the remembrance of theſe obliging evidences of his kindneſs, but
+be a ſufficient Argument alſo for the proſecution of his ruine? A moſt
+unreaſonable thing! Yet this is his caſe, he is ſuppoſed to differ from
+us in matters of Religion, and therefore he may be juſtly diſinherited.
+This is that groſs abuſive Elench the Devils ſubtle Agents hath put upon
+many well-meaning ignorant men, and for their ſakes it ſhall now be
+expoſed by as plain and familiar reaſonings, as the nature of the Subject
+will bear.</p>
+            <p>Give me leave to ask all vehement Sticklers for Liberty and
+Property, what they mean by thoſe terms? Is it not to be under the protection
+of <pb n="5" facs="tcp:96663:3"/>reaſonable, known and determinate Laws, that we may have
+other mea<g ref="char:EOLhyphen"/>ſures of our Duties and Puniſhments, other meaſures of what we
+may call ours, than the will of the Impoſers. If it be (which no doubt they
+muſt confeſs) let them ſhew by what known determinate Law, the Duke hath
+forfeited the Inheritance, which a known determinate Law hath given him. If
+there be none, but that they would have a Law made for that purpoſe, this
+according to what is before laid down, and the true Notion of Liberty and
+Property deſtroys both; for at this rate no man can be certain of any thing.
+Who can call that his, if the Legiſlators may juſtly diſpoſe of it when
+they pleaſe, by declaring firſt ſome Act, or ſome Opinion to be
+erroneous, and then that Error to be a good cauſe of Forfeiture? Who can
+promiſe himſelf one minutes liberty; for when the Legiſlators pleaſe to
+declare ſomething a defect either in my body or mind, and then that defect to
+be a juſt cauſe of Baniſhment, or Im<g ref="char:EOLhyphen"/>priſonment, there's no Injuſtice
+in the caſe, I ſuffer as juſtly as the Mur<g ref="char:EOLhyphen"/>derer, 'tis true this the
+Supreme Power may do by its unaccountable Pre<g ref="char:EOLhyphen"/>rogative in Government, nay, much
+more, it may hang all that have grey, or black eyes, and for no other reaſon,
+but how equitable all, or any of theſe things are, a mean capacity may judge
+from what hath been ſaid.</p>
+            <p>However I will yet more fully illuſtrate this matter by my Lord
+<hi>Strafford</hi> his Caſe; in the management of which, I ſhall firſt
+ſhew, there is no difference between his, and his Royal Highneſſes
+Caſe, in which his Royal Highneſs has not the harſher dealing. In his
+Caſe, the Parliament were ſomething countenanc'd in their Proceeds, by an
+Act made 25 <hi>Ed.</hi> 3. wherein is a power left in them to declare, what
+other Facts are Treaſon, beſides thoſe already ſo declared, but in his
+Royal High<g ref="char:EOLhyphen"/>neſſes Caſe they have no ſuch plauſible pretence; his
+Offences were Faults in Fact; this only Error in Opinion; his Faults were
+proved againſt him, and himſelf heard in his own Vindication; here (as I
+ſhall preſently more fully obſerve) his Royal Highneſs muſt be
+Condemned unheard. Thus far the Caſes differ, and no farther; For 'tis in the
+Caſe of both, to have a Law made on purpoſe to condemn them, and ro
+ſuffer more for their Offence, than ſtands with the allowance of known
+determinate Laws.</p>
+            <p>But notwithſtanding the more plauſible Pretences for
+<hi>Strafford</hi>'s Pu<g ref="char:EOLhyphen"/>niſhment, yet His late Majeſty ſhewed himſelf
+the moſt ſorrowful Peni<g ref="char:EOLhyphen"/>tent, by his repeated Sighs, and paſſionate
+Exclamations, for ſhedding innocent blood. He well knew, if there was no Law
+broken, there was no Tranſgreſſion, and without Tranſgreſſion 'twas
+unjuſt to puriſh. He well knew, if there was a Law broken, that 'twas
+Injuſtice to inflict a greater Puniſhment, than that Law had provided. Nay,
+the Parliament themſelves were aſhamed of their own Act, which appeared by
+their Declaration, <hi>That it ſhould be no Preſident.</hi> And yet now how
+many are fiery hot for the acting of a thing of the ſame nature, that the
+ſame, if not a ſtronger Reaſon prohibits: So that if their mutinous
+deſires were gratified, His preſent Majeſty ſhould be as guilty of
+unjuſtly re<g ref="char:EOLhyphen"/>moving His Brothers Landmark, as His Predeceſſor thought
+himſelf in ſhedding innocent Blood. Let our Phanaticks therefore if they
+can (who now look toppingly, and like the Whore ſpoken of in Scripture, wipe
+their mouths, as if they had done, or deſigned no harm) quit them<g ref="char:EOLhyphen"/>ſelves
+<pb n="6" facs="tcp:96663:4"/>from this <hi>dilemma,</hi> either 'tis juſt to inflict
+greater puniſhments for offences, than the known Laws have determin'd, or
+not; if not, the Duke cannot be juſtly diſinherited; if juſt, then
+firſt <hi>Strafford</hi> did juſt<g ref="char:EOLhyphen"/>ly ſuffer, and His Majeſties tears of
+Repentance were but the Sacrifice of Fools. The Parliament too are very much to
+blame, who upon ſecond thoughts preſum'd that Act unfit for a
+Preſident.</p>
+            <p n="2">2. Down goes Liberty and Property, there's at once a
+compleat Sur<g ref="char:EOLhyphen"/>render of both them. And what prodigious Monſters are theſe
+that can in one and the ſame breath, cry for and againſt one and the ſame
+thing. But what makes their noiſe (if it be poſſible) more harſh, what
+makes them ſeem men that yet leſs conſider Juſtice and Equity, is this,
+They would have a Law to diſinherit the Duke for Popery: But ask whether they
+would have a Law, that all men ſhould be thus ſeverely puniſhed barely
+for diſſent in opinion in matters of Religion? No, that they deem a Law
+groſly unjuſt, elſe what mean their perpetual Clamors for Liberty of
+Conſcience? elſe what mean thoſe continual Exprobrations of Go<g ref="char:EOLhyphen"/>yerors,
+for diſturbing unlawful Conventicles? 'Tis plain therefore in their own
+Opinion, ſuch a general Law is not allowable. But however a Law of this
+nature to reach ſome, particular individuals (provided always they be none of
+their Fraternity) is, with them, agreeable to reaſon: For my part, I cannot
+apprehend by what Logick 'tis maintain<g ref="char:EOLhyphen"/>able. that that may be juſt to one, or
+few, that will not be ſo to many, and all; for ſurely Juſtice is the
+conſtant, regular, and equal diſtribution of Rewards and Puniſhments;
+ſo that in all well regulated States, all Subjects muſt have equal
+Puniſhments for equal Faults.</p>
+            <p>Let one of them ſuppoſe himſelf ſo unhappy to have kill'd
+a man in his own defence, the Law in that caſe hath declared only a
+Forfeiture of Goods and Chattels; but the Lawmakers ſay, though 'tis ſo
+declared, and though all other men guilty of this Fault ſhall he under no
+greater Penalty, yet you ſhall hang, and your whole Eſtate ſhall be
+forfeitured; ſay, let any one of them fancy himſelf in this condition, and
+then tell me, Whether he ſhould not believe this hard meaſure in the
+ſuperlative de<g ref="char:EOLhyphen"/>gree? Yet either this Caſe is juſt, or the Duke's
+unjuſt; for what can be ſaid here, that may not be urged for the Duke? We
+can ſay, the Laws have not declared ſo great a Penalty for this Offence. We
+can ſay, that no man ever did, or is ever likely ſuffer ſo much for
+ſuch Offence.</p>
+            <p>Truly if of ſuch Principles as theſe will hold, we are like to
+be brought to a ſine confuſion; one ſhall be impriſon'd but for two
+days, a ſecond ſtigmatized a third only loſe his Eſtate a fourth
+ſhall be deprived of both Eſtate and Life, and all theſe ſeveral
+Puniſhments for one and the ſame Fault. This is not to be allowed for the
+very confuſion it brings much leſs when it undermines the very Foundation,
+the very Being of Juſtice, which is rendering to every man according to his
+works. And whether moſt unequal proportion for equal things be a fulfilling
+of that Law, I leave to any undeſigning men to judge.</p>
+            <p>To ſtop the force of this Argument, perhaps 'twill be objected,
+I ought to have diſtinguiſhed between Popiſh, and other Diſſenters
+and then they would have alloweſt that all Papiſts as well as the Duke may
+for no other reaſon than being Papiſts, juſtly ſuffer Diſinheriſon,
+by which Conceſſion, the Arguments drawn from the inequality of
+Puniſhments, <hi>&amp;c.</hi> would fall I am ſure, I know no diſtinction
+will make for Planaticks; indeed Papiſts <pb n="7" facs="tcp:96663:4"/>are for pulling
+down Heretical Kings, the others are for pulling down all Kings Heretical; or
+elſe, Papiſts are for contriving the ruine of He<g ref="char:EOLhyphen"/>retical Kingdoms, the
+others are actuated by them, are their in ruments to put their contrivances in
+execution. If therefore we may be ſuppo<g ref="char:EOLhyphen"/>ſed to fear them leſs than
+Papiſts, it can be for no other reaſon, but be<g ref="char:EOLhyphen"/>cauſe they have leſs
+management, not at all leſs wicked intentions.</p>
+            <p>However let us ſee the conſequences of this, That all Popiſh
+Diſſen<g ref="char:EOLhyphen"/>ters, barely for their Diſſent, may juſtly ſuffer
+Diſinheriſon; if ſo, 'tis time to throw away our Book of Martyrs; for we
+can upbraid them no longer with that, they can now recriminate, and argue
+<hi>ad hominem.</hi> 'Tis true, they thought it juſt to take away our Being,
+but we think it juſt to take away their Well-being, and perhaps to moſt men
+the firſt condition is more eligible. Beſides all this, what a Rod does
+this make for Prote<g ref="char:EOLhyphen"/>ſtants in Foreign Parts; for if the ſevereſt uſage
+of Papiſts, even to their utter ruine, be juſtifiable, barely for
+diſſenting in Opinion, then a perſecu<g ref="char:EOLhyphen"/>ting return upon Proteſtants in
+Popiſh Dominions is juſtifiable; for 'twill be no very paſſable Plea
+for us to urge, we puniſh them for Error, they puniſh us for Truth; Who
+ſhall be Judge of that? They will retort what we ſay, and which ſide
+ſoever pleadeth thus, begs the main Point in queſtion between us. They are
+as confident they are in the right, and we in Error, as we can poſſibly be
+of the contrary. There is no rule therefore for our Behaviour one towards
+another, but to do as we would be done by.</p>
+            <p>Thus much in anſwer to theſe violent Objectors, and we will
+now ad<g ref="char:EOLhyphen"/>dreſs our ſelves to the more moderate, who will condemn ſuch a
+general Law againſt: <hi>Romaniſts,</hi> and yet argue the Duke may be
+juſtly diſinheri<g ref="char:EOLhyphen"/>ted becauſe 'tis for the good and ſafety of, the
+Kingdom, for the preſer<g ref="char:EOLhyphen"/>vation of the Proteſtant Religion. To this I
+anſwer,</p>
+            <p>Firſt, That this is all but bare ſurmiſe; for ſuppoſe
+ſuch a Law made, how can we be aſſured the Duke will in his Conſcience
+believe this a good and blinding Law? And if he does not, can we believe a Man
+of his Courage will tamely acquieſce, and lay down thoſe which he thinks
+juſt Pretenſions to a Crown? Such a Law therefore in all probability would
+cauſe ſo much Bloodſhed, as to leave the Victors no reaſon to tri<g ref="char:EOLhyphen"/>umph.
+But if his Royal Highneſs (being as they pretend a Papiſt) ſhould be
+ſucceſsful, how can the Proteſtants expect the leaſt favour from his
+hands, who have dealt with him ſo roughly? 'Tis therefore alto<g ref="char:EOLhyphen"/>gether as
+likely, That that which is vainly fancied would be the Safety, might prove the
+ruine of the Kingdom; that that which is vainly ſancied would be the
+Preſervation, might prove the Extirpation of the Proteſtant Religion.</p>
+            <p>Secondly, That the ſafety of the Kingdom, and the Preſervation
+of the Proteſtant Religion, depends upon the making of ſuch a Law is but
+bare ſurmiſe, becauſe the Duke is not yet convict of Popery; and if he
+were, it cannot poſſibly appear but he may ſee the Errors thereof, and
+repent. He therefore that poſitively objects this, muſt ſwallow thoſe
+two uncharitable Suppoſitions; firſt, that his Highneſs is a
+<hi>Romanist;</hi> and ſecondly, that will never repent. But however
+unreaſonable, and unchriſtian like this is, we will ſuppoſe it all, and
+admit too the Law will have thoſe effects they pretend; yet if it be granted,
+that ſuch a Law is not juſt for a bare diſſent in matters of Religion,
+abſtracted from theſe <pb n="8" facs="tcp:96663:5"/>conſequences, then I do affirm,
+the addition of theſe conſequences can never make ſuch a Law
+juſtifiable; for nothing can be more perſpicuouſly plain, than that this
+is doing evil, that good may come of it; and is no more, than the
+preſervation of a good Religion by a bad Law.</p>
+            <p>How blame worthy therefore were thoſe, that marked out to the
+Rabble all Diſſenters from the late Bill againſt the Duke, as
+Conſpirators, Betrayers of their Countrey, and what not? perhaps
+conſidering too, they brought His Majeſty into this number, who in His
+Gracious Speech declared, <hi>He would not alter the Succeſſion.</hi>
+            </p>
+            <p>And truly this Bill, their Darling, were it well examin'd, would
+be found to be a condemning a man without legal, Conviction, without ever being
+heard, whether he could clear himſelf in what is laid to his charge, a
+juſtice always done, always allowed the worſt of Criminals.</p>
+            <p>Perhaps many may think this a groſs reflection upon the late
+Houſe of Commons, till they recollect many things have paſſed twice, that
+have been with ſcorn thrown out the third time of reading; nor do I in the
+leaſt ſcruple, but that this Bill had underwent no other Fate.</p>
+            <p>And now upon the whole matter, how can we look ſuperficially
+upon theſe Comminations, what Loyal Subject, what Lover of his Countrey can
+be free from amazing terrors? when every Coblet is deciding, who ſhall Reign;
+when the Preſs is crowded with diſloyal, treaſonable Pam<g ref="char:EOLhyphen"/>phlets, and the
+freedom of Peoples tongues, equals that of their thoughts in treaſonable
+matters; when deſigning Fellows are venting multitudes of Contradictions
+<hi>ad faciendum populum,</hi> that by any means they may work their ends,
+ſometimes encouraging them to preſerve Liberty and Property, at, other
+times (which deſtroys both) telling them 'tis juſt for a man to ſuffer
+more for an offence, than the known determinate Laws allot, and ſuffer too
+unhead, ſometimes repreſenting what a grand Grie<g ref="char:EOLhyphen"/>vance 'tis to want Liberty
+of Conſcience, at other times maintaining it juſt for a man to ſuffer
+Diſinheriſon, for an Heterodox Opinion in matters of Religion; when I,
+ſay, the ſerious conſiderations of theſe Premiſes preſent
+themſelves, what ſad but natural Illations may we draw? How can we leſs
+expect (without the moſt watchful prudence in the Magi<g ref="char:EOLhyphen"/>ſtrate, join'd with
+a merciful Providence) then a relapſe into all imagi<g ref="char:EOLhyphen"/>nable confuſion, than
+that we may a ſecond time uſe for <hi>England,</hi> King
+<hi>Ageſilaus</hi> lamentation for <hi>Greece, O infelicem Graeciam quae
+tantum hominum ipſa ſibi interemit, quantum ſatis est ad univerſos
+vincendum barbaros!</hi>
+            </p>
+            <p>Here I ſhould conclude, did I not fear his Highneſs might
+think me at leaſt rude, if not wholly without Apology, were not ſomething
+offered to, excuſe this weak defence of his Right. When I ſaw our right and
+law<g ref="char:EOLhyphen"/>ful Succeſſor, our next Father of our Countrey aſſaulted, my loyal
+af<g ref="char:EOLhyphen"/>fection forced my unexperienced Pen, as it did the unuſed tongue of the,
+King of <hi>Lidya</hi>'s Son, when his Father was in danger, to cry out, <hi>O
+ſave my Father!</hi>
+            </p>
+            <p>Now, Sir, I have nothing more, but to ask your Pardon for
+detaining you thus long upon ſo ſad and nice a Subject, and to aſſure
+you that I am</p>
+            <closer>
+               <salute>Dear Sir,</salute>
+               <signed>Your faithful Servant, <hi>P.</hi>
+               </signed>
+            </closer>
+            <pb facs="tcp:96663:5"/>
+         </div>
+      </body>
+   </text>
+</TEI>
